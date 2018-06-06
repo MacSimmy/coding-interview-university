@@ -719,17 +719,17 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [X] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [X] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [X] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
-        - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [X] insert    // insert value into tree
+        - [X] get_node_count // get count of values stored
+        - [X] print_values // prints the values in the tree, from min to max
+        - [X] delete_tree
+        - [X] is_in_tree // returns true if given value exists in the tree
+        - [X] get_height // returns the height in nodes (single node's height is 1)
+        - [X] get_min   // returns the minimum value stored in the tree
+        - [X] get_max   // returns the maximum value stored in the tree
+        - [X] is_binary_search_tree
+        - [X] delete_value
+        - [X] get_successor // returns next-highest value in tree after given value, -1 if none
 
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
@@ -748,16 +748,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [X] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [X] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [X] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
+        - [X] insert
+        - [X] sift_up - needed for insert
+        - [X] get_max - returns the max item, without removing it
+        - [X] get_size() - return number of elements stored
+        - [X] is_empty() - returns true if heap contains no elements
+        - [X] extract_max - returns the max item, removing it
+        - [X] sift_down - needed for extract_max
+        - [X] remove(i) - removes item at index x
+        - [X] heapify - create a heap from an array of elements, needed for heap_sort
+        - [X] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 ## Sorting
